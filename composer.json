@@ -1,0 +1,20 @@
+{
+  "name": "avoran/doctrine-dbal-datetime-default-tz",
+  "description": "A custom Doctine DBAL type to use PHP DateTime objects set to the system's default timezone.",
+  "keywords": ["Doctrine", "DBAL", "DateTime", "datetime", "timezone", "default"],
+  "authors": [
+    {
+      "name": "Pieter Verloop",
+      "email": "pieter@deft.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "doctrine/dbal": "~2.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Avoran\\Doctrine\\DBAL\\": "src/"
+    }
+  }
+}
