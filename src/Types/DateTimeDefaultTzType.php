@@ -46,6 +46,11 @@ class DateTimeDefaultTzType extends DateTimeType
         return $val;
     }
 
+    public function requiresSQLCommentHint(AbstractPlatform $platform)
+    {
+        return true;
+    }
+
     private function dateTimeZone()
     {
         return new DateTimeZone(date_default_timezone_get());
